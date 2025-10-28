@@ -4,7 +4,7 @@ This repository contains the **electronics and software** developed to determine
 
 ---
 
-## 🧠 Overview
+## Overview
 
 The system measures and logs data from multiple sensors — including pressure, flow, and temperature — to analyze the fluid dynamics inside a Venturi tube.  
 It is designed to be reliable, high-performance, and adaptable to a variety of testing configurations.
@@ -18,7 +18,7 @@ It is designed to be reliable, high-performance, and adaptable to a variety of t
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 PRT-Venturi-Test/
@@ -32,7 +32,7 @@ PRT-Venturi-Test/
 
 ---
 
-## ⚙️ Hardware Setup
+## Hardware Setup
 
 | Component | Description | Notes |
 |------------|--------------|-------|
@@ -42,7 +42,7 @@ PRT-Venturi-Test/
 
 ---
 
-## 💾 Software Features
+## Software Features
 
 - Automatic test file creation (`Test1.csv`, `Test2.csv`, …)
 - High-speed serial communication (2 Mbit/s)
@@ -50,7 +50,7 @@ PRT-Venturi-Test/
 
 ---
 
-## 🧰 Installation
+## Installation
 
 ### Arduino Firmware
 1. Clone this repository:
@@ -88,7 +88,7 @@ python venturi_gui.py
 
 ---
 
-## ▶️ Usage
+## Usage
 
 1. Power the system and insert an SD card.  
 2. Start the test — a new CSV file will be automatically created.  
@@ -99,7 +99,7 @@ python venturi_gui.py
 
 ---
 
-## 🧯 Troubleshooting
+## Troubleshooting
 
 | Issue | Possible Cause | Solution |
 |--------|----------------|-----------|
@@ -108,7 +108,7 @@ python venturi_gui.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This repository is intended for **internal collaboration** within the **PoliTo Rocket Team**.  
 Members of the **Propulsion** and **Electronics** departments are encouraged to:
@@ -119,7 +119,7 @@ Members of the **Propulsion** and **Electronics** departments are encouraged to:
 
 ---
 
-## 🧩 Future Development
+## Future Development
 
 - Enhanced live data visualization features in the Python GUI  
 - Improved real-time flow smoothing algorithms  

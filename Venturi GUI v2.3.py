@@ -141,10 +141,6 @@ class App(tk.Tk):
         self.ax_liter.set_ylabel("Cumulative flow (L)")
         self.ax_liter.set_xlabel("Time (s)")
 
-        # Fixed axis limits
-        self.ax_press.set_ylim(0, 12)
-        self.ax_ratio.set_ylim(0, 1.2)
-
         self.line_p1, = self.ax_press.plot([], [], label="P1")
         self.line_p2, = self.ax_press.plot([], [], label="P2")
         self.line_p3, = self.ax_press.plot([], [], label="P3")
@@ -401,11 +397,11 @@ class App(tk.Tk):
             self.line_p2.set_data(x, list(self.p2))
             self.line_p3.set_data(x, list(self.p3))
             self.line_p4.set_data(x, list(self.p4))
-            #self.rescale_axis(self.ax_press, x, [self.p1, self.p2, self.p3, self.p4])
+            self.rescale_axis(self.ax_press, x, [self.p1, self.p2, self.p3, self.p4])
 
             # Ratio
             self.line_ratio.set_data(x, list(self.ratio))
-            #self.rescale_axis(self.ax_ratio, x, [self.ratio])
+            self.rescale_axis(self.ax_ratio, x, [self.ratio])
 
             # Flow
             self.line_us.set_data(x, list(self.usFlow))

@@ -23,10 +23,9 @@ It is designed to be reliable, high-performance, and adaptable to a variety of t
 ```
 PRT-Venturi-Test/
 │
-├── /Arduino/               # Main firmware for data acquisition and logging
-├── /GUI/                   # Python-based interface for live monitoring and plotting
-├── /Hardware/              # Schematics, Fritzing diagrams, and wiring layouts
-├── /Tests/                 # Example CSV logs and collected test data
+├── Arduino                 # Main firmware for data acquisition and logging
+├── GUI                     # Python-based interface for live monitoring and plotting
+├── /Documentation/         # Schematics, Fritzing diagrams, and wiring layouts
 └── README.md               # Project documentation
 ```
 
